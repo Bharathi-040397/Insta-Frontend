@@ -1,0 +1,157 @@
+.lognavbar{
+    height: auto;
+    
+   
+}
+
+.lognav_brand{
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 2rem;
+    font-family: 'Grand Hotel', cursive;
+}
+.lognav_item
+{
+    position: absolute;
+    right: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+       
+    
+}
+.search
+{
+    position: absolute;
+    left: 40%;
+    
+}
+.collection-item 
+{
+    width: 100%;
+}
+.input_field:focus{
+    border-bottom: 1px solid#64b5f6 !important;
+    box-shadow: 0 1px 0 0 #64b5f6!important ;
+}
+.lognav_link
+{
+    font-family: 'Tangerine', serif; 
+    margin-right: 2rem;
+}
+.search:focus
+{
+        border-bottom: 1px solid black !important;
+        box-shadow: 0 1px 0 0 black!important;
+        
+    
+}
+@media only screen and (max-width:995px)
+{
+    .lognav_item
+    {
+        position: relative;
+        right: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        
+    }
+    .search
+    {
+        left:30%;
+        top:10%;
+
+    
+    }
+    .lognav_brand
+    {
+        padding-left: 1rem;
+    }
+    
+}
+@media only screen and (max-width:550px)
+{
+    .lognav_item
+    {
+        position: relative;
+        left: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .lognav_link
+    {
+        margin-right: 1rem;
+    }
+    .search
+    {
+        top: 10%;
+        left:38%
+    
+    }
+    .lognav_brand
+    {
+        padding-left: 0.5rem;
+    }
+    
+}
+@media only screen and (max-width:400px)
+{
+    .lognav_item
+    {
+        position: relative;
+        left: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .lognav_link
+    {
+        margin-right: 0.5rem;
+    }
+    .search
+    {
+        left:40%;
+        top:10%;
+    
+    }
+    .lognav_brand
+    {
+        font-size: 25px;
+        padding-left: 0.5rem;
+    } 
+}
+@media only screen and (max-width:300px)
+{
+    .lognav_item
+    {
+        position: relative;
+        left: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .lognav_link
+    {
+        margin-right: 0.5rem;
+    }
+    .search
+    {
+        visibility: hidden;
+    }
+    .lognav_brand
+    {
+        font-size: 25px;
+        padding-left: 2px;
+    } 
+}
+

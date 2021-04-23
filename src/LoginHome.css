@@ -1,0 +1,114 @@
+.login_home
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+}
+.login_home>.card
+{
+    
+    height: auto;
+    min-width: 300px;
+    outline: none!important;
+    border: none!important;
+}
+.login_home>.card>.card-title
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    text-transform: capitalize;
+}
+.clear
+{
+ display: flex;
+ justify-content: flex-end;
+ margin-top: -0.5rem;
+ margin-right: -0.3rem;
+}
+.login_home>.card>.card-body
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    }
+.login_home>.card>.card-body>img
+{
+     max-width: 300px;
+     max-height: 250px;
+}
+.material-icons{
+    font-size: 35px!important;
+    margin-right: 0.4rem;
+    cursor: pointer;
+    
+}
+.comment:focus
+{
+   border-bottom:1px solid #333;
+   box-shadow: 0 1px 0 0 #333!important ;
+
+}
+.btn_group
+{
+    display: flex;
+    justify-content: space-between;
+}
+.material-icons 
+{
+    font-size: 23px!important;
+    
+    
+}
+#bookmark
+{
+    font-size: 25px!important;
+    
+}
+.card-footer>.post_title
+{
+    color:#00b0ff!important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.card-footer>p
+{
+    margin-left: 1.5rem;
+    
+}
+#unlike
+{
+    color:#ff1744!important
+}
+
+@media only screen and (max-width:400)
+{
+    .login_home>.card
+{
+    max-width: 400px;
+    height: auto;
+    min-width: 150px;
+}
+
+}
+@media only screen and (max-width:350)
+{
+    .login_home>.card
+{
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+    margin: 1rem;
+}
+.card-body>img
+{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+}
+

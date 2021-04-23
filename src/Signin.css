@@ -1,0 +1,64 @@
+.signcard
+{
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+.signcard_title
+{
+    font-size: 25px;
+    font-family: 'Grand Hotel', cursive;
+}
+.input_field
+{
+    border :none
+}
+.btn
+{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.input_field:focus{
+    border-bottom: 1px solid#64b5f6 !important;
+    box-shadow: 0 1px 0 0 #64b5f6!important ;
+}
+
+@media only screen and (max-width:600px)
+{
+    .signcard{
+        width: 300px!important;
+    }
+}
+@media only screen and (max-width:450px)
+{
+    .signcard{
+        width: 250px!important;
+    }
+    .btn
+    {
+        font-size: 10px;
+    }
+    h6
+    {
+        font-size: 12px!important;
+    }
+}
+@media only screen and (max-width:300px)
+{
+    .signcard{
+        width: 200px!important;
+    
+    
+    }
+    .btn
+    {
+        font-size: 10px;
+    }
+    h6
+    {
+        font-size: 8px!important;
+    }
+}
+

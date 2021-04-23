@@ -1,0 +1,66 @@
+
+
+.navbar{
+    height: auto;
+    
+}
+
+.nav_brand{
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 2rem;
+    font-family: 'Grand Hotel', cursive;
+}
+.nav_item
+{
+    position: absolute;
+    right: 3%;
+    
+}
+.nav_link
+{
+    font-family: 'Tangerine', serif; 
+    font-size: 30px;
+    margin-right: 2rem;
+}
+@media only screen and (max-width:1000px)
+{
+    .nav_item
+    {
+        position: relative;
+        left: 3%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .nav_link{
+        padding-left: 2rem;
+        font-size: 29px;
+    }
+    
+}
+@media only screen and (max-width:400px)
+{
+    .nav_item
+    {
+        position: relative;
+        left: 1%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .nav_brand{
+        font-size: 25px;
+        font-weight: 400;
+        padding-left: 1rem;
+        font-family: 'Grand Hotel', cursive;
+    }
+    
+    .nav_link{
+        
+       margin-right: 1rem;
+        font-size: 25px;
+    }
+    
+    
+}

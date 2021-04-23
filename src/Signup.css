@@ -1,0 +1,77 @@
+
+.signcard
+{
+    margin-left:  auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+    padding: 30px;
+    min-width: 100px;
+    max-width: 400px;
+    max-height: 600px;
+}
+.signcard_title
+{
+    font-size: 25px;
+    font-family: 'Grand Hotel', cursive;
+}
+.input_field
+{
+    border :none;
+    font-size: 13px;
+}
+.btn
+{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.input_field:focus{
+    border-bottom: 1px solid#64b5f6 !important;
+    box-shadow: 0 1px 0 0 #64b5f6!important ;
+}
+#toast-container
+{ 
+    position: fixed;
+    top:10%;
+    right: 3%;
+    max-width: 240px;
+    width: auto;
+    
+}
+.user_input_field
+{
+    max-width: 280px;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:600px)
+{
+    .signcard{
+        width: 300px!important;
+    }
+}
+@media only screen and (max-width:450px)
+{
+    .signcard{
+        width: 350px!important;
+    }
+}
+@media only screen and (max-width:300px)
+{
+    .signcard{
+        width: 200px!important;
+    
+    
+    }
+    .btn
+    {
+        font-size: 10px;
+    }
+    h6
+    {
+        font-size: 12px!important;
+    }
+}

@@ -1,0 +1,58 @@
+.createpost
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+.createpost>.card
+{
+    margin-top: 3rem;
+    padding: 3rem;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.createpost>.card>.upload
+{
+    display: flex;
+    align-items: center;
+
+}
+.createpost>.card>.btn
+{
+    margin-right: 1rem;
+    max-width: 100px;
+    margin-top: 2rem;
+
+}
+.post_input_field:focus{
+    border-bottom: 1px solid#64b5f6 !important;
+    box-shadow: 0 1px 0 0 #64b5f6!important ;
+}
+.post_input_field1
+{
+    max-width: 200px;
+    overflow: hidden;
+    padding: 1rem;
+}
+#toast-container
+{ 
+    position: fixed;
+    top:10%;
+    right: 3%;
+    max-width: 200px;
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width:900px)
+
+{
+    .createpost>.card
+    {
+        width: 500px;
+    }
+
+}
